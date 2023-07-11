@@ -1,0 +1,370 @@
+/* shared styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+.btn-primary {
+  border-radius: 8px;
+  background: #e55473;
+  width: 177px;
+  height: 64px;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+/* header style */
+.header {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+/* banner styles */
+
+.banner-title-section {
+  width: 40%;
+}
+.banner-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: 32px;
+}
+
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.banner-image {
+  height: 800px;
+  width: 663px;
+  margin-top: 50px;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* main styles */
+/* Feature Flower Styles */
+
+.feature-flower {
+  margin-top: 178px;
+  margin-bottom: 128px;
+}
+
+.feature-flower-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.feature-flower-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.feature-flower-image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.flower-1-image {
+  background-color: rgba(167, 33, 98, 0.15);
+  width: 460px;
+  height: 538px;
+  border-radius: 300px 300px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-right: 24px;
+}
+.flower-2-image {
+  background-color: rgba(5, 151, 160, 0.15);
+  width: 460px;
+  height: 538px;
+  border-radius: 300px 300px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+.flower-3-image {
+  background-color: rgba(71, 125, 17, 0.15);
+  width: 460px;
+  height: 538px;
+  border-radius: 300px 300px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-right: 24px;
+}
+
+.flower-text {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+/* gray section styles */
+.gray-section {
+  height: 449px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 128px;
+}
+.gray-section-container {
+  width: 1440px;
+  height: 449px;
+  background-color: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gray-section-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+  
+}
+
+.gray-section-text {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* hot-deal section styles */
+
+.hot-deal {
+  background-color: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1920px;
+  height: 620px;
+}
+.hot-deal-title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hot-deal-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.hot-deal-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+.hot-deal-image {
+  width: 318px;
+  height: 420px;
+}
+/* Flower vase styles */
+
+.flower-vase {
+  margin-top: 178px;
+  margin-bottom: 128px;
+}
+.flower-vase-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.flower-vase-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.flower-vase-image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.vase-1-image {
+  background-color: #176b87;
+  width: 460px;
+  height: 538px;
+  border-radius: 300px 0 0 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+.vase-2-image {
+  background-color: #64ccc5;
+  width: 460px;
+  height: 538px;
+  border-radius: 0 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+.vase-3-image {
+  background-color: #dafffb;
+  width: 460px;
+  height: 538px;
+  border-radius: 0 300px 300px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.vase-title {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  margin-top: 24px;
+}
+
+/* Instagram title styles */
+
+.instagram {
+  margin-top: 128px;
+}
+.instagram-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.instagram-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.instagram-images-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.instagram-image {
+  margin-right: 24px;
+}
+
+/* Latest deals styles */
+.latest-deals {
+  display: flex;
+  justify-content: center;
+  height: 449px;
+  margin-top: 128px;
+}
+.latest-deals-container {
+  width: 1440px;
+  background-image: url("../Flower Asset/Rectangle\ 9.png");
+  margin-right: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.latest-deals-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.latest-deals-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0;
+}
+.subscribe {
+  text-align: center;
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+}
+.email {
+  width: 700px;
+  height: 64px;
+  padding-left: 22px;
+  border: 0;
+  margin-right: 16px;
+}
+
+input::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* footer styles */
+.footer {
+  background-color: #111010;
+  width: 1922px;
+  height: 449px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 128px;
+}
+.footer-title {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.reserved {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+}
